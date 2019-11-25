@@ -8,4 +8,16 @@
 
 var firstNonRepeatedCharacter = function(string) {
   // TODO: your solution here
+  function firstUnique(string) {
+var resrult = ''  
+
+for(var  i=0; i < string.length; i++) {
+    
+    var result = string.charAt(i)
+    	if(string.indexOf(result) == string.lastIndexOf(result)) {
+      		
+      		return result;
+    }
+  }
+}
 };
